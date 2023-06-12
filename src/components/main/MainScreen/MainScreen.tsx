@@ -4,6 +4,7 @@ import styles from './MainScreen.module.scss';
 export const MainScreen: FC = () => {
   const [data, setData] = useState<string>();
 
+
   useEffect(() => {
     const dataFetch = async () => {
       const data = await (
