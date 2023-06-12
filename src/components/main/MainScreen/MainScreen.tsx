@@ -21,7 +21,7 @@ export const MainScreen: FC = () => {
 
   return (
     <div className={styles.mainScreen}>
-      <p>Home!</p>
+      <p>Home!!!</p>
       {!!data && data}
     </div >
   )
