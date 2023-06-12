@@ -1,19 +1,22 @@
+@import "../../../scss/vars";
+
+
 .headerModule {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  height: 5vh;
+  height: $headerHeight;
 
-  background-color: orange;
+  background-color: $mainColor;
 
-  padding: 0 16px;
+  padding: 0 $pagePadding;
 }
 
 .links {
   display: flex;
 
-  gap: 16px;
+  gap: $defaultGap;
 }
 
 .link {

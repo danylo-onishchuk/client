@@ -1,11 +1,13 @@
+@import "../../scss/vars";
+
 .footerModule {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  height: 5vh;
+  height: $headerHeight;
 
-  background-color: orange;
+  background-color: $mainColor;
 
-  padding: 0 16px;
+  padding: 0 $pagePadding;
 }

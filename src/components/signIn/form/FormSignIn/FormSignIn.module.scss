@@ -1,3 +1,5 @@
+@import "../../../../scss/vars";
+
 .formContainer {
   display: flex;
 
@@ -5,16 +7,16 @@
   justify-content: center;
   align-items: center;
 
-  gap: 16px;
+  gap: $defaultGap;
 
-  height: 90vh;
+  height: $mainHeight;
 }
 
 .passwordInputContainer {
   display: flex;
   flex-direction: column;
 
-  gap: 8px;
+  gap: $defaultGap / 2;
 }
 
 .passwordInput {

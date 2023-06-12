@@ -1,8 +1,29 @@
-import { FC } from 'react';
+import { FC, useEffect, useState } from 'react';
 import styles from './MainScreen.module.scss';
 
-export const MainScreen: FC = () => (
-  <div className={styles.mainScreen}>
-    <p>Home!</p>
-  </div >
-);
+export const MainScreen: FC = () => {
+  const [data, setData] = useState<string>();
+
+  console.log(process.env.REACT_APP_API_URL)
+
+  useEffect(() => {
+    const dataFetch = async () => {
+      const data = await (
+        await fetch(
+          process.env.REACT_APP_API_URL as string,
+        )
+      ).text();
+
+      setData(data);
+    };
+
+    dataFetch();
+  }, []);
+
+  return (
+    <div className={styles.mainScreen}>
+      <p>Home!</p>
+      {!!data && data}
+    </div >
+  )
+};

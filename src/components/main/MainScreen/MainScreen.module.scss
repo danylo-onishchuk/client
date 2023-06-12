@@ -1,13 +1,15 @@
+@import '../../../scss/vars';
+
 .mainScreen {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
-  padding: 0 16px;
+  padding: 0 $pagePadding;
 
-  height: 90vh;
-}
+  height: $mainHeight;
+}v
 
 .link {
   list-style: none; 
