@@ -1,6 +1,13 @@
+@font-face {
+  font-family: Kyiv;
+  src: url(./assets/fonts/KyivTypeSans-VarGX.ttf);
+}
+
 body {
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Kyiv, 'sans-serif';
+  font-weight: 300;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -8,7 +15,7 @@ body {
 }
 
 code {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Kyiv, 'sans-serif';
 }
 
 #root { 
