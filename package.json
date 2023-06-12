@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://danylo-onishchuk.github.io/client/",
+  "homepage": "https://danylo-onishchuk.github.io/quest_client/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
