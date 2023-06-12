@@ -1,0 +1,14 @@
+.mainScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 0 16px;
+
+  height: 90vh;
+}
+
+.link {
+  list-style: none; 
+}

@@ -1,0 +1,26 @@
+.gameScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  
+  height: 90vh;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.questionBody {
+  display: flex;
+  justify-content: center;
+
+  gap: 48px;
+
+  width: 100%;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+}

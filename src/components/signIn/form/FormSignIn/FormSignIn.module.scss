@@ -1,0 +1,22 @@
+.formContainer {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 16px;
+
+  height: 90vh;
+}
+
+.passwordInputContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+.passwordInput {
+  outline: none;
+}
